@@ -1,0 +1,33 @@
+{
+  "name": "HometaskM12",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".mocharc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "paralell" : "mocha-parallel-tests -R xunit --timeout 10000 --slow 1000 test/*.spec.js",
+    "par": "mocha --parallel test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sargsyan-Artur/HometaskM12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sargsyan-Artur/HometaskM12/issues"
+  },
+  "homepage": "https://github.com/Sargsyan-Artur/HometaskM12#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "mocha-parallel-tests": "^2.3.0"
+  }
+}
