@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "paralell" : "mocha-parallel-tests -R xunit --timeout 10000 --slow 1000 test/*.spec.js",
-    "par": "mocha --parallel test/*.spec.js"
+    "parallel": "mocha --parallel test/*.spec.js"
   },
   "repository": {
     "type": "git",
